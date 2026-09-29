@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/
+results/checkpoints/
+
+# Generated/cache files
+.cache/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
+*.key
+*.pem
